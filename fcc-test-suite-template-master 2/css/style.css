@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+#image {
+  margin: 20px 0;
+}
+
+#img-caption {
+  font-size: 1.75em;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#tribute-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link > a {
+  width: 300px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px 0px;
+  font-size: large;
+  font-family: "Poppins";
+}
+
+.link > a:hover {
+  background-color: rgba(237, 38, 38, 0.8);
+}
